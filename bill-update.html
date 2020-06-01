@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="weui/css/weui.css"/>
+    <link rel="stylesheet" href="weui/css/weuix.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="weui/js/zepto.min.js"></script>
+    <script>
+        $(function () {
+
+
+        });
+    </script>
+</head>
+
+<body class="page-bg">
+<div class="fyl-hd clearfix">
+    <div class="fyl-left">
+        <a href="bill-list.html">
+            <span class="iconfont-fanhui fyl-fanhui">&#xe653;</span>
+        </a>
+    </div>
+    <div class="fyl-center">
+        修改账单
+    </div>
+</div>
+<div class="fyl-body">
+    <div class="weui-panel">
+        <div class="weui-panel__bd" style="padding: 5px">
+            <input type="hidden" id="pageTitle" value="">
+            <form id="dataForm">
+                <input type="hidden" name="id" value="">
+                <div class="weui-cells">
+                    <div class="weui-cell">
+                        <div class="weui-cell__bd">
+                            <input class="weui-input" placeholder="商品名称" autocomplete="off" type="text" id="name"
+                                   name="name"
+                                   value="西红柿">
+                        </div>
+                    </div>
+                </div>
+                <div class="weui-cells">
+                    <div class="weui-cell">
+                        <div class="weui-cell__bd">
+                            <input class="weui-input" placeholder="商品价格" autocomplete="off" type="number" id="money"
+                                   name="money" value="20">
+                        </div>
+                    </div>
+                </div>
+                <div class="weui-cells">
+                    <a class="weui-btn weui-btn_primary" href="javascript:" id="save">保存</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

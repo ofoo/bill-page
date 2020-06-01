@@ -7,93 +7,7 @@
     <link rel="stylesheet" href="weui/css/weui.css"/>
     <link rel="stylesheet" href="weui/css/weuix.css"/>
     <link rel="stylesheet" href="css/common.css"/>
-    <style>
-        body {
-            margin: 0;
-        }
-
-        .text-color{
-
-        }
-        .fyl-hd {
-            background-color: #FFFFFF;
-            border-bottom: #EEEEEE 2px solid;
-            position: fixed;
-            top: 0;
-            width: 100%;
-            height: 50px;
-            line-height: 50px;
-            z-index: 999;
-        }
-
-        .fyl-ft {
-            background-color: #FFFFFF;
-            border-top: #EEEEEE 2px solid;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            height: 50px;
-            line-height: 50px;
-            z-index: 999;
-        }
-
-        .fyl-fanhui {
-            font-size: 25px;
-            color: #1296db;
-            font-weight: bold;
-        }
-
-        .fyl-left {
-            width: 30%;
-            position: relative;
-            left: 20px;
-            float: left;
-        }
-
-        .fyl-center {
-            width: 40%;
-            float: left;
-            text-align: center;
-        }
-
-        .fyl-right {
-            width: 30%;
-            right: 20px;
-            float: right;
-            position: relative;
-            text-align: right;
-        }
-
-        .fyl-body {
-            padding: 50px 0;
-        }
-
-        .fyl-ft {
-            text-align: center;
-        }
-
-        .fyl-ul li {
-            display: inline-block;
-            padding: 0 20px;
-            color: #1296db;
-        }
-
-        .fyl-line-right {
-            border-right: 1px solid #EEEEEE;
-        }
-        .fyl-ft-left{
-            float: left;
-            color: #1296db;
-            width: 50%;
-            text-align: center;
-        }
-        .fyl-ft-right{
-            float: right;
-            color: #1296db;
-            width: 50%;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css"/>
     <script src="weui/js/zepto.min.js"></script>
     <script>
         $(function () {
@@ -114,7 +28,7 @@
         今日账单
     </div>-->
     <div class="fyl-right">
-        <a href="javascript:;">添加</a>
+        <a href="bill-add.html">添加</a>
     </div>
 </div>
 <div class="fyl-body">
@@ -208,12 +122,12 @@
     </div>
 </div>
 <div class="fyl-ft clearfix">
-    <div class="fyl-ft-left">今日账单</div>
-    <div class="fyl-ft-right">个人中心</div>
-    <!--<ul class="fyl-ul">-->
-        <!--<li class="fyl-line-right">今日账单</li>-->
-        <!--<li>个人中心</li>-->
-    <!--</ul>-->
+    <div class="fyl-ft-left">
+        <strong>今日支出</strong>
+    </div>
+    <div class="fyl-ft-right">
+        <strong>45</strong>
+    </div>
 </div>
 </body>
 </html>
