@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "iconfont-fanhui";
+    src: url('font/fanhui/iconfont.eot?t=1590987730290'); /* IE9 */
+    src: url('font/fanhui/iconfont.eot?t=1590987730290#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAJ8AAsAAAAABiQAAAIxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAowSQE2AiQDCAsGAAQgBYRtBzAbbwUR1Ysjsj9AJrf6AQCJymSLVsbQs+S+CLDXsvRh/wOawlGQAAAAAADx8DVGe393TzWpppuLLuBJNXlImiBEuoZIKBAKnsRCvgTkmYANOAgHgURkL2ce6hfn7G2Nij6M5NHtHn0h6dpxllNSsUoHQE6l6JfBkM9zOb0JdCB31QfKZYxBY02a1AuoFwdSgHthFFkJZdwwdsELfEygVo8psVrvHletsFcF4la8el51IaIoLF8tVDYcLOK5CtXpaXrPs+j78Xc6qkkqMrvp8JW1SxZ/cIpw4FRAiBLQ8QpkTKEQxxsz+7JgXFabKQY4Vn3wQwVucVSHYH+dXVsPumA2+MFbKUCCx5qoCg2TLiOqHvhZvFC4+y0v+XLNcVtEP0sv0vdAcPhtvH31Cvh4R/ZimI/qFb3BD1AN7CuGxnaloqkah5OqHbfUqsUBDrT6OtXacbZCqNYxQQbN3RmyakNkYadQoc4MKlVbQK1JG8frtLkti1KDCQ8BQrO3SBq9Q9bsA1nYL6jQ6T8qNUdGrZPRhXVGQos6oxH0YP8Q3TiQ6xEd198wvDvDeU3Ev5CXGIcyK8r5Kw7IS2xZPqESISAee6jBc9h1I0w8JnSSNSLTPs+p6U2ZG3ulVUYj6MH+IbpxoGC06MrnbxjeneGOnrr0C3mJ00OZFQPIq3EY1PMoryyfUIkQEI891GAedt0IU/O8hE6yZkJq2ufOIBpqzLY39393DGqVbUsrZ1aGzNC8o1IA') format('woff2'),
+    url('font/fanhui/iconfont.woff?t=1590987730290') format('woff'),
+    url('font/fanhui/iconfont.ttf?t=1590987730290') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */ url('font/fanhui/iconfont.svg?t=1590987730290#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont-fanhui {
+    font-family: "iconfont-fanhui" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: "iconfont-shangbiao";
+    src: url('font/shangbiao/iconfont.eot');
+    src: url('font/shangbiao/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('font/shangbiao/iconfont.woff2') format('woff2'),
+    url('font/shangbiao/iconfont.woff') format('woff'),
+    url('font/shangbiao/iconfont.ttf') format('truetype'),
+    url('font/shangbiao/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont-shangbiao {
+    font-family: "iconfont-shangbiao" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
